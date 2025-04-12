@@ -1,1 +1,23 @@
-# -
+def a():
+    print("*********************************")
+    print("*\t\t 1.sang\t\t*")
+    print("*\t\t 2.kagaz\t*")
+    print("*\t\t 3.gechy\t*")
+    print("*********************************")
+a()
+player1=int(input("player 1 :enter namber:"))
+print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+a()
+player2=int (input("player 2 :enter namber:"))
+print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+if player1==1 and player2==3 or player1==2 and player2==1 or player1==3 and player2==2:
+    print("____________________________________________")
+    print( f"|\t\tplayer 1 winner ,player1= {player1}\t\t\t|")
+    print( f"|\t\tplayer2= {player2}\t\t\t|")
+    print("____________________________________________")
+    a()
+if player2==1 and player1==3 or player2==2 and player1==1 or player2==3 and player1==2:
+    print("____________________________________________")
+    print( f"|\t\tplayer 2 winner ,player2= {player2}\t\t\t|")
+    print( f"|\t\tplayer1= {player1}\t\t\t|")
+    print("____________________________________________") 
